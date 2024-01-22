@@ -1,0 +1,35 @@
+<img class="img-fluid" src="/img/banner_ttsp.jpg">
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-md-5">
+            <a href="#">
+                <img class="img-thumbnail" src="{{flower.img}}">
+            </a>
+        </div>
+        <div class="col-md-6">
+            <div class="caption">
+                <h2>{{flower.name}}</h2>
+                <hr>
+                <h6>Mô tả sản phẩm:</h6>
+                <p>{{flower.description}}</p>
+                <div class="dropdown details ">
+                    <hr>
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Thông tin chi tiết:
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <p class="dropdown-item">Hương thơm:{{flower.scent}}</p>
+                        <p class="dropdown-item">Tone màu:{{flower.tones}}</p>
+                        <p class="dropdown-item">Xuất xứ:{{flower.origin}}</p>
+                        <p class="dropdown-item">Gửi từ:{{flower.from}}</p>
+                    </div>
+                </div>
+                <hr>
+                <span class="price" style="color: #ee4d2d;font-size: 1.875rem;font-weight: 500;">{{flower.price}}VNĐ</span>
+                <hr>
+                <a class="btn btn-danger" href="#" role="button">Mua ngay</a>
+            </div>
+        </div>
+    </div>
+</div>

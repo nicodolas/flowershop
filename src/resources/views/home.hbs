@@ -1,0 +1,19 @@
+<img class="img-fluid" src="/img/banner_home.jpg">
+<div class="mt-4 container-fluid">
+    <div class="row">
+        {{#each flower}}
+        <div class=".col-3 col-sm-6 col-lg-4 mb-4">
+            <div class="card card-flower-item">
+                <img class="card-img-top align-self-center" src="{{this.img}}" alt="Card image cap">
+                <div class="card-body font-weight-bold text-center">
+                    <h5 class="card-name">{{this.name}}</h5>
+                    <p class="card-intro">{{this.intro}}</p>
+                    <p class="card-price price">{{this.price}} VNĐ</p>
+                    <a href="/flowers/{{this.slug}}" class="btn btn-primary ">Xem chi tiết</a>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+
+    </div>
+</div>

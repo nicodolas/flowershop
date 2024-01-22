@@ -1,0 +1,53 @@
+<div class="mt-4 container">
+    <form method="POST" action="/flowers/store">
+        <div class="form-group">
+            <label for="name">Tên Sản Phẩm</label>
+            <input type="text" class="form-control" id="name" name="name">
+        </div>
+        <div class="form-group">
+            <label for="description">Giới Thiệu Sản Phẩm </label>
+            <input type="text" class="form-control" id="description" placeholder="Giới thiệu chi tiết"
+                name="description">
+        </div>
+        <div class="form-row">
+            <div class="col-md-3 mb-3">
+                <label for="origin">Xuất xứ</label>
+                <input type="text" class="form-control" id="origin" name="origin" placeholder="Xuất xứ" required>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="from">Gửi từ</label>
+                <input type="text" class="form-control" id="from" name="from" placeholder="Gửi từ" required>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="tones">Tones màu</label>
+                <input type="text" class="form-control" id="tones" name="tones" placeholder="Tones" required>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="scent">Hương thơm</label>
+                <input type="text" class="form-control" id="scent" name="scent" placeholder="Hương thơm" required>
+            </div>
+
+        </div>
+        <div class="form-row">
+            <div class="col-md-3 mb-3">
+                <label for="img">Hình Ảnh</label>
+                <input type="text" class="form-control" id="img" name="img" placeholder="URL hình ảnh" required>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="price">Giá(VNĐ)</label>
+                <input type="text" class="form-control" id="price" name="price" placeholder="VNĐ" required>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <label for="intro">Giới thiệu ngắn gọn</label>
+                <input type="text" class="form-control" id="intro" name="intro" placeholder="" required>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="slug">ID cho sản phẩm</label>
+                <input type="text" class="form-control" id="slug" name="slug" placeholder="ID product" required>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Thêm Hàng</button>
+    </form>
+</div>
